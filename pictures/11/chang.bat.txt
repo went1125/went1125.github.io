@@ -1,0 +1,2 @@
+@echooff
+ren*.jpg*.JPG
