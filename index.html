@@ -1,79 +1,208 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
-	    <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <title>NCTU</title>
-	    <link rel="stylesheet" type="text/css" href="15css3/hover/css/component.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="author" content="">-->
+	
+		<title>交大桃武友會</title>
+	
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="15css3/hover/css/component.css">
 	    <link rel="stylesheet" type="text/css" href="15css3/hover/css/demo.css">
 	    <link rel="stylesheet" type="text/css" href="15css3/hover/css/normalize.css">
-	    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
-	    <link rel="stylesheet" href="mycss.css">
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!--jQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!--js-->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<!--font awsome-->
+		<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- slick -->
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+		<!--My own work-->
+		<link href="css/create.css" rel="stylesheet">
+		<script src="js/create.js"></script>
 	</head>
-	<body>
-		<!-- Events START -->
-			<div class="container-fluid" style="width:auto; padding:0px;">
-			    <div class="grid">
-			        <figure class="effect-oscar">
-			            <img src="pictures/E1.JPG">
-			            <figcaption>
-			                <h2><span>桃</span>友茶會</h2>
-			                <p>在開學前我們總會先給桃友新生一個震撼教育。</p>
-			                <a href="http://yusi123.com/" target="_blank">View more</a>
-			            </figcaption>			
-			        </figure>
-			        <figure class="effect-oscar">
-			            <img src="pictures/E2.jpg">
-			            <figcaption>
-			                <h2><span>桃</span>友迎新</h2>
-			                <p>茶會情緣不會斷，在迎新讓大家更認識彼此，之後在接受我們最後的洗禮，這就是屬於桃友的迎新。</p>
-			                <a href="http://yusi123.com/" target="_blank">View more</a>
-			            </figcaption>			
-			        </figure>
-			        <figure class="effect-oscar">
-			            <img src="pictures/E3.JPG">
-			            <figcaption>
-			                <h2>寒<span>桃</span>營</h2>
-			                <p>每年最盛大的桃友活動，每年經過這個大事件的洗禮大家的感情就像asus堅若磐石。</p>
-			                <a href="http://yusi123.com/" target="_blank">View more</a>
-			            </figcaption>			
-			        </figure>
-			        <figure class="effect-oscar">
-			            <img src="pictures/E4.jpg">
-			            <figcaption>
-			                <h2><span>桃</span>園週</h2>
-			                <p>你問桃友有經費補助嗎?身為交大生當然要靠自己能力賺錢啊。</p>
-			                <a href="http://yusi123.com/" target="_blank">View more</a>
-			            </figcaption>			
-			        </figure>
 
-			    </div>
+	<body id="page-top" data-target=".navbar" data-spy="scroll">
+	
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="myNavbar">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav_right">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+				
+					<a class="navbar-brand page-scroll" href="#page-top"><strong style="color:#fff">交大桃武友會</strong></a>
+				</div>
+			
+				<div class="collapse navbar-collapse" id="myNav_right">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a class="page-scroll" href="#event"><strong style="color:#fff">Event</strong></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#about"><strong style="color:#fff">About</strong></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#photo"><strong style="color:#fff">Photo</strong></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact" style="color:#fff"><strong>Contact</strong></a>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<!-- Events END -->
+			<!--container-fluid-->
+		</nav>
+		<!--header start-->
+		<div class="header container-fluid" style="background-color: #1E88E5">
+			
+				<h1>NCTU</h1>
+				<br>
+				<h2>
+					<span style="color:#019858; font-size:100px;">T</span>aoyuan <span style="color:#FF9797; font-size:100px;">A</span>rea <span style="color:	#00E3E3; font-size:100px;">A</span>lumni <span style="color:#DCB5FF; font-size:100px;">A</span>ssociation
+				</h2>
+				<br>
+				<h2 style="font-weight:bold; color:	#d0d0d0;">國立交通大學桃友會</h2>
+				<br>
+				<a href="#event" class="btn btn-circle">
+					<i class="fa fa-angle-double-down animated"></i>
+				</a>
+	
+		</div>
+		<!--header end-->
+		<div class="layer3-container">
+			<!--event start-->
+			
+				<div class="grid" id="event">
+					<figure class="effect-oscar">
+						<img src="img/E1.JPG">
+						<figcaption>
+							<h2><span>桃</span>友茶會</h2>
+							<p>在開學前我們總會先給桃友新生一個震撼教育。</p>
+							<a href="http://yusi123.com/" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-oscar">
+						<img src="img/E2.jpg">
+						<figcaption>
+							<h2><span>桃</span>友迎新</h2>
+							<p>茶會情緣不會斷，在迎新讓大家更認識彼此，之後在接受我們最後的洗禮，這就是屬於桃友的迎新。</p>
+							<a href="http://yusi123.com/" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-oscar">
+						<img src="img/E3.JPG">
+						<figcaption>
+							<h2>寒<span>桃</span>營</h2>
+							<p>每年最盛大的桃友活動，每年經過這個大事件的洗禮大家的感情就像asus堅若磐石。</p>
+							<a href="http://yusi123.com/" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-oscar">
+						<img src="img/E4.jpg">
+						<figcaption>
+							<h2><span>桃</span>園週</h2>
+							<p>你問桃友有經費補助嗎?身為交大生當然要靠自己能力賺錢啊。</p>
+							<a href="http://yusi123.com/" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
 
-			<div class="about-container">
+				
+			</div>
+			<!--event end-->
+			<!--about start-->
+			<div id="about" class="about-container">
 				<div class="shell">
 					<h2>About</h2>
 					<hr>
 					<p class="p-container">
-我們是一群來自桃園的交大學生，希望能藉由地方情感來營造出快樂的氛圍，透過辦活動來增進感情，也有獨創的酒趴活動哦，希望各位新生能加入我們。					</p>
+						我們是一群來自桃園的交大學生，希望能藉由地方情感來營造出快樂的氛圍，透過辦活動來增進感情，也有獨創的酒趴活動哦，希望各位新生能加入我們。					</p>
 					<a href="#" class="btn btn-default">Read More</a>
 				</div>
 			</div>
-
-			<!-- 背景輪播 START--> 	
-			<div class="slider_container">
-				<img src="pictures/E1.jpg">
-				<img src="pictures/E2.jpg">
-				<img src="pictures/E3.jpg">
-				<img src="pictures/E4.jpg">
-				<img src="pictures/E5.jpg">
-			</div>
-			<!-- 背景輪播 END--> 
-			
+			<!--about end-->
 		</div>
+		<!--layer3-container end-->
+
+		<!-- 背景輪播 START-->
+		<div class="hi" id="photo">
+			<div class="item1"></div>
+			<div class="item2"></div>
+			<div class="item3"></div>
+			<div class="item4"></div>
+		</div>
+				
+		<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+		<script type="text/javascript">
+			$('.hi').slick({
+				  dots: true,
+				  infinite: true,
+				  speed: 500,
+				  fade: true,
+				  cssEase: 'linear',
+				  autoplay: true
+			});
+		</script>
+		<!-- 背景輪播 END--> 
+
+		<!--contact start-->
+		<div class="container-fluid section_contact" id="contact">
+			<div class="row">
+				<div class="part col-xs-6 col-md-4 aa">
+					<a href="#page-top"> Home</a><br>
+					<a href="#event"> Event</a><br>
+					<a href="#about"> About</a><br>
+					<a href="#photo"> Portfolio</a><br>
+					<a href="#contact"> Contact</a><br>
+				</div>
+
+				<div class="clearfix visible-xs-block"></div>
+
+				<div class="part col-xs-6 col-md-4">
+					<h1>Contact</h1>
+					<div class="part_contact col-md-4">
+						<a href="https://www.facebook.com/profile.php?id=100000141225380">
+							<i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i><br>
+						</a>
+					</div>
+					<div class="part_contact col-md-4">
+						<a href="mailto:peter841226308@gmail.com">
+							<i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="part_contact col-md-4">
+						<a href="https://www.facebook.com/share.php?u=http://ntaa.nctu.me/">
+							<i class="fa fa-thumbs-o-up  fa-4x" aria-hidden="true"></i><br>
+						</a>
+					</div>
+				</div>
+
+				<div class="clearfix visible-xs-block"></div>
+				
+				<div class="part_message col-xs-6 col-md-4">
+					<form role="form">
+					<div class="form-group " style="text-align: center;">
+					  <label for="message">Send us message:</label>
+					  <textarea class="form-control form_style" onfocus="func(this)" id="message" style="text-align: left;">                      Write something!!!</textarea>
+					  <br>
+					  <button type="button" class="btn btn-default">Submit</button>
+					</div>
+				  </form>
+				</div>
+
+			</div>
+		</div>
+		
 	</body>
 </html>
-	

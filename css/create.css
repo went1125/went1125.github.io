@@ -1,0 +1,346 @@
+/*By 彥儒*/
+
+@font-face {
+	font-family: "open-sans";
+	src:url('../font/open-sans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+	font-family: "MA";
+	src:url('../montserrat_alternates/MontserratAlternates-Bold.ttf');
+	src:url('../montserrat_alternates/MontserratAlternates-Regular.ttf');
+}
+
+html, body{
+	position: relative;
+	height: 100%;
+	width:100%;
+}
+
+.navbar-brand{
+	font-family: "微軟正黑體";
+}
+
+@media(min-width:767px){
+	.navbar{
+		font-family:"open-sans";
+		font-size: 18px;
+		background-color: transparent;
+		border-color: transparent;
+		-webkit-transition: background .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out;
+		-o-transition:background .5s ease-in-out;
+        transition: background .5s ease-in-out;
+	}
+	
+	.top-nav-collapse{
+		background-color: #212121;
+	}
+
+}
+
+.header {
+	position: relative;
+	width: 100%;
+	height:100%;
+	background-image: url('../img/head2.jpg');
+	-moz-background-size:cover;        /*for Firefox*/
+	-webkit-background-size:cover;        /*for Google Chrome、Safari*/
+	-o-background-size:cover;        /*for Opera*/
+	background-size:cover;        /*for IE*/
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding: 200px;
+}
+
+.section{
+	padding-top:50px;
+	height:500px;
+	font-size:36px;
+	text-align: center;
+}
+
+
+/*By 信為*/
+
+.header h1 {
+	font-family: "MA";
+	font-size: 500%;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+.header h2 {
+	font-family: "MA";
+	font-size: 300%;
+	text-align: center;
+}
+
+
+.btn-circle {
+	margin-top: 1%; 
+	width: 70px;
+    height: 70px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    padding: 7px 16px;
+    transition: background .3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-circle:hover {
+	background: rgba(255,255,255,.2);
+}
+
+.layer3-container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.about-container {
+	position: relative;
+	top:49.8%;
+	height: 60%;
+	width: 100%;
+	background-image: url(../img/about.jpg);
+	background-size: cover;
+	/*background-color: #d4d7d7;*/
+}
+
+.shell {
+	position: relative;
+	bottom: 0;
+	right: 0;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 300px;
+    height: 100%;
+    width: 70%;
+    text-align: center;
+}
+
+.shell h2{
+	position: relative;
+	top:20%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+    font-family: "MA", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.shell hr {
+	position: relative;
+	top:16%;
+    width: 10%;
+    height: 0;
+    border-top: 1px solid #ffffff4d;
+    display: block;
+    box-sizing: content-box;
+}
+
+.p-container {
+	display: block;
+	position: relative;
+	top:17%;
+	font-size: 26px;
+    font-weight: 400;
+    letter-spacing: .02em;
+    color: #fff;
+}
+
+.shell .btn {
+	position: absolute;
+	top: 80%;
+	right: 42%;
+	color: #181919;
+    border-color: #989b9b;
+    -webkit-box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    border: 0;
+    font-size: 15px;
+    line-height: 30px;
+    transition: .3s all ease-out;
+    display: inline-block;
+    font-weight: 200;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 14px 51px;
+}
+
+.btn-default:hover{
+	color: #fff;
+    background: #44abf0;
+    text-decoration: none;
+    border-color: #44abf0;
+}
+
+
+.item1{
+	background-image: url(../img/E1.jpg);
+	background-size: cover; 
+}
+
+.item2{
+	background-image: url(../img/P3.jpg); 
+	background-size: cover;
+}
+
+.item3{
+	background-image: url(../img/E3.jpg);
+	background-size: cover;
+}
+
+.item4{
+	background-image: url(../img/P2.jpg);
+	background-size: cover;
+}
+
+.slick-dots {
+	bottom: 0;
+}
+
+/*.slider_container img {
+	position: absolute;
+	width: 100%;
+    height: 100%;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-animation: round 25s linear infinite;
+    animation: round 25s linear infinite;
+}
+
+.slider_container :nth-child(5) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+
+.slider_container :nth-child(4) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+
+.slider_container :nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+
+.slider_container :nth-child(2) {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+}
+
+.slider_container :nth-child(1) {
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+}
+
+@-webkit-keyframes round {
+	4% {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+
+	20% {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+
+	24% {
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+}
+
+@keyframes round {
+	4% {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+
+	20% {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+
+	24% {
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+}*/
+
+/*By 垂浩*/
+
+.section_contact{
+	position: relative;
+	background-color: rgb(95,95,95);
+	color: white;
+	height: 33%;
+	top:6.75%;
+}
+
+.section_contact .part{
+	position: relative;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+
+.section_contact  .aa{
+	padding-top: 27px;
+	line-height: 33px;
+}
+
+.section_contact .aa a{
+	color: white;
+	font-size: 20px;
+}
+.section_contact  .aa a:hover{
+	font-size: 21px;
+}
+
+.section_contact .part_message{
+	height: auto;
+	float: left;
+	text-align: left;
+	padding-top: 2%;
+	padding-left: 8%;
+}
+
+.section_contact .part_message .form_style{
+	position: relative;
+	width: 100%;
+	height: 15%;
+}
+
+.section_contact .part_contact{
+	padding-top: 22px;
+}
+
+.section_contact .fa {
+    color: white;
+}
+.section_contact .part p{
+    color: white;
+}
+
+.section_contact a:hover{
+	text-decoration: none;
+	font-size: 105%;
+}
