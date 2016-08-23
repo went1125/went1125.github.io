@@ -101,6 +101,7 @@ html, body{
 	position: relative;
 	height: 60%;
 	width: 100%;
+	top:49.8%;
 	background-image: url(../img/about.jpg);
 	background-size: cover;
 	/*background-color: #d4d7d7;*/
