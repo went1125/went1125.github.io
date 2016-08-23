@@ -78,12 +78,6 @@ html, body{
 	text-align: center;
 }
 
-.layer3-container {
-	position: relative;
-	height: 100%;
-	width: 100%;
-}
-
 
 .btn-circle {
 	margin-top: 1%; 
@@ -103,11 +97,17 @@ html, body{
 	background: rgba(255,255,255,.2);
 }
 
+.layer3-container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
 .about-container {
 	position: relative;
+	top:49.8%;
 	height: 60%;
 	width: 100%;
-	top:49.8%;
 	background-image: url(../img/about.jpg);
 	background-size: cover;
 	/*background-color: #d4d7d7;*/
@@ -191,7 +191,7 @@ html, body{
 
 
 .item1{
-	background-image: url(../img/E2.jpg);
+	background-image: url(../img/E1.jpg);
 	background-size: cover; 
 }
 
@@ -292,7 +292,7 @@ html, body{
 	background-color: rgb(95,95,95);
 	color: white;
 	height: 33%;
-	top:6.7%;
+	top:6.75%;
 }
 
 .section_contact .part{
